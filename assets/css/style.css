@@ -31,4 +31,31 @@
     overflow-y: hidden;
     min-height: 0;
   }
+  .nav-content {
+    width: 100%;
+    background: #fff;
+  }
   
+  .hide li {
+    visibility: visible;
+    display: block;
+    text-align: center;
+    padding: .5em;
+    box-sizing: border-box;
+  }
+  
+  .hide {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  }
+  
+  .nav-content input:checked ~ .hide {
+    display: block;
+  }
+  
+  .nav-content input {
+    visibility: hidden;
+  }
+    
