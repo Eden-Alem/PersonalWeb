@@ -75,4 +75,25 @@
     text-align: center;
     height: .8em;
   }
+
+  .form-control:focus {
+    border-color: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(100, 100, 100, 0.5);
+  }
+  
+  .heading-name {  
+    padding: 20px 20px 30px 14px;
+  }
+  
+  .heading-name h1 {
+    font-size: 25px;
+  }
+  
+  .name{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    line-height: 1.1em;
+  }
+
     
