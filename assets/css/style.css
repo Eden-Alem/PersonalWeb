@@ -96,4 +96,23 @@
     line-height: 1.1em;
   }
 
+  .navbar-toggler {
+    margin-left: .5em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    height: 2em;
+  }
+  
+  .copy-right {
+    font-size: 0.8em;
+    color: gray;
+    padding-top: 1em;
+  }
+  
+  .blog-post img {
+    float: left;
+    padding: .2em;
+    margin: 0.5em;
+  } 
+
     
