@@ -195,6 +195,28 @@
       width: 550px;
     }  
   }
+
+  @media (min-width:600px) {
+    .columns {          
+      padding-top: 1em;     
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-bottom: 5em;
+    } 
+    
+    .secondary ul {
+      padding-left: 1em;
+    }
+    .primary {      
+      width: 49%;
+    }
+  
+    .secondary {    
+      width: 49%;
+    }
+  }
+  
   
 
     
