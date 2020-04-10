@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 *{
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lora', serif;
 } 
 
 body {
     margin: 0;
     height: 100vh;
+    font-size: 14px;
+    line-height: 1.8;
 }
 
 a{
@@ -97,6 +101,10 @@ a:hover {
     line-height: 1.1em;
 }
 
+.social-medias {
+    margin-top: 23em;
+}
+
 .navbar-toggler {
     margin-left: .5em;
     margin-top: 1em;
@@ -123,7 +131,9 @@ a:hover {
 }
 
 .info hr {
-    visibility: hidden;
+    border-top: .5px solid black;
+    padding-bottom: 7em;
+    width: 150px;
 }
 
 .secondary li {
@@ -203,8 +213,7 @@ a:hover {
         top: 50%;
         left: 50px; 
         height: 100vh;
-        z-index: 1000;
-        margin-top: -270px;
+        margin-top: -250px;
         text-align: left;
     } 
 
@@ -254,7 +263,7 @@ a:hover {
     }
 
     .navbar-item {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.4;
         padding: 3px 6px 3px 1px;
     }
@@ -270,10 +279,6 @@ a:hover {
     .hide li,
     .medias {
         visibility: hidden;
-    }
-
-    .info hr {
-        visibility: visible;
     }  
 
     .blog-post img {
@@ -282,7 +287,7 @@ a:hover {
         margin: 0.5em;
     }
 
-    .blogs h3 {
+    .blogs h2 {
         padding-bottom: 1em;
         padding-top: 0;
     }
@@ -346,6 +351,12 @@ a:hover {
         flex-wrap: wrap;
         padding-bottom: 5em;
     } 
+
+    .info hr {
+        border-top: 1px solid black;
+        padding-bottom: 7em;
+        width: 250px;
+    }
 
     .secondary ul {
         padding-left: 1em;
