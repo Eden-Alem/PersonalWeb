@@ -23,7 +23,7 @@ a:hover {
 
 #navi {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #content {
